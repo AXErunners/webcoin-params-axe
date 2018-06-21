@@ -1,6 +1,6 @@
 {
   "name": "webcoin-params-axe",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Abstract cryptocurrency params",
   "main": "index.js",
   "scripts": {
@@ -21,9 +21,9 @@
   "author": "AXErunners",
   "license": "MIT",
   "dependencies": {
-    "axe-protocol": "^3.0.1",
-    "axe-util": "^2.0.0",
-    "axecore-lib": "^0.13.19",
+    "@axerunners/axe-protocol": "^3.0.1",
+    "@axerunners/axe-util": "^2.0.0",
+    "@axerunners/axecore-lib": "^0.13.19",
     "bn.js": "^4.11.0",
     "buffer-reverse": "^1.0.1",
     "inherits": "^2.0.1",

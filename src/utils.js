@@ -1,7 +1,7 @@
 var proto = require('axe-protocol')
 var struct = proto.struct
 var defaultNetMessages = proto.messages.defaultMessages
-var DefaultBlock = require('bitcore-lib-axe').BlockHeader
+var DefaultBlock = require('axecore-lib').BlockHeader
 var inherits = require('inherits')
 var assign = require('object-assign')
 
@@ -30,7 +30,7 @@ function createParams (params, assert) {
 
   if (!params.Block) {
 
-    // configure bitcore-lib-axe BlockHeader as default block
+    // configure axecore-lib BlockHeader as default block
     var Block = DefaultBlock
     params.Block = Block
 
